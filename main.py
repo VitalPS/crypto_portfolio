@@ -16,8 +16,7 @@ def font_color(number):
 
 
 def my_portfolio():
-    api_request = requests.get('https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?start=1&limit=1100'
-                               '&convert=USD&CMC_PRO_API_KEY=49cb1569-1049-46d0-8358-37a8addc8c2b')
+    api_request = requests.get('') # your key comes here!
 
     api = json.loads(api_request.content)
 
